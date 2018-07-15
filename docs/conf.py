@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'BlackListenerの説明書'
+project = u'BlackListener Documentation'
 copyright = u'2018, rht0910'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -196,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'ReadtheDocsTemplate.tex', u'BlackListenerの説明書',
+  ('index', 'ReadtheDocsTemplate.tex', u'BlackListener Documentation',
    u'Read the Docs', 'manual'),
 ]
 
@@ -226,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'readthedocstemplate', u'BlackListenerの説明書',
+    ('index', 'readthedocstemplate', u'BlackListener Documentation',
      [u'Read the Docs'], 1)
 ]
 
