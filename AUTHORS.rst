@@ -1,5 +1,5 @@
-Authors
+開発者
 -------
 
-* rht0910 (Lead Developer)
+* rht0910
 
