@@ -11,7 +11,8 @@ BlackListenerの説明書へようこそ！
 .. toctree::
    :maxdepth: 2
    :glob:
-   [/](トップページ)
+
+   `トップページ <http://docs.blacklistener.tk>`_
 
    *
 
