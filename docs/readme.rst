@@ -1,7 +1,7 @@
 ============
-最初に
+Getting Started
 ============
 
- * DiscordのBlackListenerの説明書です。
- * SSL/TLSは現時点ではサポートされていません。
- * [BlackListenerのトップページ](https://blacklistener.tk) は現在未完成、もしくは開けません。
+ * Documentation of BlackListener on Discord.
+ * Not supported SSL/TLS on this site.
+ * https://blacklistener.tk is now incomplete or cannot open.

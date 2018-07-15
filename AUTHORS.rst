@@ -1,4 +1,4 @@
-開発者
+Developers
 -------
 
 * rht0910
