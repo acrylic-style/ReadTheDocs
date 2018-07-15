@@ -1,7 +1,5 @@
 Authors
 -------
 
-* Eric (New contributor)
-* Anthony 
-
+* rht0910 (Lead Developer)
 
