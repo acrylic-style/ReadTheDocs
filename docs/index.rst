@@ -3,20 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to BlackListener documentation!
+BlackListenerの説明書へようこそ！
 ==================================================
 
-Contents:
+項目:
 
 .. toctree::
    :maxdepth: 2
    :glob:
+   [/](トップページ)
 
    *
 
 
 
-Indices and tables
+インデックスとテーブル
 ==================
 
 * :ref:`genindex`
