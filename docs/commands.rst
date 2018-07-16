@@ -1,46 +1,50 @@
 ============
 コマンド一覧
 ============
-================================ ==================
-説明ページ | 管理者権限が必要か
-:doc:`commands/help` | いいえ
-:doc:`commands/ban` | はい
-:doc:`commands/unban` | はい
-:doc:`commands/language` | はい
-:doc:`commands/setprefix` | はい
-:doc:`commands/setnotifyrep` | はい
-:doc:`commands/setbanrep` | はい
-:doc:`commands/antispam` | はい
-:doc:`commands/vote` | いいえ
-:doc:`commands/info` | いいえ
-:doc:`commands/reload` | はい
-:doc:`commands/purge` | はい
-:doc:`commands/purge_gdel` | はい
-:doc:`commands/purge_gdel_msg` | はい
-:doc:`commands/purge_gdel_really` | はい
-:doc:`commands/purge_remake` | はい
-:doc:`commands/togglepurge` | はい
-:doc:`commands/role` | はい
-:doc:`commands/autorole` | はい
-:doc:`commands/status` | いいえ
-:doc:`commands/lookup` | はい
-:doc:`commands/didyouknow` | いいえ
-:doc:`commands/encode` | いいえ
-:doc:`commands/decode` | いいえ
-:doc:`commands/encrypt` | いいえ
-:doc:`commands/decrypt` | いいえ
-:doc:`commands/setignore` | はい
-:doc:`commands/deletemsg` | はい
-:doc:`commands/setgroup` | はい
-:doc:`commands/image` | いいえ
-:doc:`commands/say` | いいえ
-:doc:`commands/sayd` | いいえ
-:doc:`commands/invite` | はい
-:doc:`commands/dump` | はい
-:doc:`commands/setnick` | はい
-:doc:`commands/listemojis` | いいえ
-:doc:`commands/leave` | はい
-:doc:`commands/instantban` | はい
-:doc:`commands/instantkick` | はい
-:doc:`commands/shutdown` | ボットオーナーのみ
-:doc:`commands/token` | ボットオーナーのみ
++---------------------------------------+-----------------------+
+| 説明ページ                            | 管理者権限が必要か    |
++---------------------------------------+------------------------
+| :doc:`commands/help`                  | いいえ                |
+| :doc:`commands/listemojis`            | いいえ                |
+| :doc:`commands/vote`                  | いいえ                |
+| :doc:`commands/info`                  | いいえ                |
+| :doc:`commands/status`                | いいえ                |
+| :doc:`commands/didyouknow`            | いいえ                |
+| :doc:`commands/encode`                | いいえ                |
+| :doc:`commands/decode`                | いいえ                |
+| :doc:`commands/encrypt`               | いいえ                |
+| :doc:`commands/decrypt`               | いいえ                |
+| :doc:`commands/image`                 | いいえ                |
+| :doc:`commands/say`                   | いいえ                |
+| :doc:`commands/sayd`                  | いいえ                |
++---------------------------------------+-----------------------+
+| :doc:`commands/ban`                   | はい                  |
+| :doc:`commands/unban`                 | はい                  |
+| :doc:`commands/language`              | はい                  |
+| :doc:`commands/setprefix`             | はい                  |
+| :doc:`commands/setnotifyrep`          | はい                  |
+| :doc:`commands/setbanrep`             | はい                  |
+| :doc:`commands/antispam`              | はい                  |
+| :doc:`commands/reload`                | はい                  |
+| :doc:`commands/purge`                 | はい                  |
+| :doc:`commands/purge_gdel`            | はい                  |
+| :doc:`commands/purge_gdel_msg`        | はい                  |
+| :doc:`commands/purge_gdel_really`     | はい                  |
+| :doc:`commands/purge_remake`          | はい                  |
+| :doc:`commands/togglepurge`           | はい                  |
+| :doc:`commands/role`                  | はい                  |
+| :doc:`commands/autorole`              | はい                  |
+| :doc:`commands/lookup`                | はい                  |
+| :doc:`commands/setignore`             | はい                  |
+| :doc:`commands/deletemsg`             | はい                  |
+| :doc:`commands/setgroup`              | はい                  |
+| :doc:`commands/invite`                | はい                  |
+| :doc:`commands/dump`                  | はい                  |
+| :doc:`commands/setnick`               | はい                  |
+| :doc:`commands/leave`                 | はい                  |
+| :doc:`commands/instantban`            | はい                  |
+| :doc:`commands/instantkick`           | はい                  |
++---------------------------------------+-----------------------+
+| :doc:`commands/shutdown`              | ボットオーナーのみ    |
+| :doc:`commands/token`                 | ボットオーナーのみ    |
++---------------------------------------+-----------------------+
