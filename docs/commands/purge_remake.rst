@@ -1,6 +1,6 @@
 purge remakeコマンド
 ====
-
+::
         $ purge remake <チャンネル>
 
 | 指定したチャンネルを再作成します。

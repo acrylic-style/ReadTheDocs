@@ -1,6 +1,6 @@
 togglepurgeコマンド
 ====
-
+::
         $ togglepurge [enable/disable]
 
 | purgeコマンドの使用可否を設定します。

@@ -1,6 +1,6 @@
 dumpコマンド
 ====
-
+::
         $ dump [guilds/channels/messages/users]
 
 | 指定した要素をすべてファイルに出力します。

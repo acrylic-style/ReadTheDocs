@@ -1,6 +1,6 @@
 statusコマンド
 ====
-
+::
         $ status <fortnite/minecraft>
 
 | 指定したサービスのステータスを表示します。

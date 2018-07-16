@@ -1,6 +1,6 @@
 setprefixコマンド
 ====
-
+::
         $ setprefix <新しい接頭語>
 
 | 接頭語(prefix)を設定します。

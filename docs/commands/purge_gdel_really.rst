@@ -1,6 +1,6 @@
 purge gdel-reallyコマンド
 ====
-
+::
         $ purge gdel-really
 
 サーバー上のすべてのチャンネルを削除して、チャンネルは作成しません。
