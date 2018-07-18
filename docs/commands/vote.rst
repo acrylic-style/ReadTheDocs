@@ -1,6 +1,6 @@
 voteコマンド
 ====
-::
+構文::
         $ vote <[create/start|close/end|vote|info|list] [質問|ID|ID|ID|(なし)] [答え1..10|(なし)|数値|(なし)|(なし)]>
 
 投票コマンドです。
