@@ -9,7 +9,7 @@ BlackListenerの説明書へようこそ！
 項目:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
    release_notes/1.1
 
