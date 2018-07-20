@@ -11,7 +11,6 @@ BlackListenerの説明書へようこそ！
 .. toctree::
    :maxdepth: 1
    :glob:
-   release_notes/1.1
 
    *
 
