@@ -1,0 +1,45 @@
+バージョン1.1
+====
+
+バージョン1.0.1 -> バージョン1.1
+
+追加されたもの
+====
+ * :doc:`../commands/eval`
+ * :doc:`../commands/talkja`
+ * :doc:`../commands/mute`
+ * .travis.ymlを追加
+ * travis.jsonを追加(Travis-CIテスト用のもの)
+ * 新しい引数を追加: --travis-build (Travis-CIテスト専用)
+ * dblapi.jsを使うようにした
+ * node-fetchを一部で使うようになった
+ * 起動してから10秒だけ見れる「プレイ中」メッセージを追加
+ * Creating data directory～を一部で表示するようにした
+
+変更されたもの
+====
+ * 公開ボット: Google Compute Engineへ移動、反応が早くなりました
+ * :doc:`../commands/help`
+ * :doc:`../commands/didyouknow` の範囲を拡大(ユーザーだけ->サーバーとユーザー)
+ * :doc:`../commands/serverinfo` の判定式などを変更・追加・この説明書にページを追加
+ * 「これはもしかして？」のコマンドでprefixが出るようにした
+ * README.mdを更新
+ * もちろん設定ファイル(config.json)も更新
+ * returnするときに一部でawaitも使うようにした。意味があるかは不明
+ * :doc:`../commands/ban` で--forceオプションを追加
+
+削除されたもの
+====
+ * submodule(BlackListener-Data)
+ * DMで連絡できるシステムを追加したが削除(無効化)された
+
+修正されたもの
+====
+ * dataフォルダが存在しない場合にエラーになって起動しない・メッセージを送信するとエラーになる問題を修正
+ * GCEは/dev/sdbを持っていないのでエラーになる問題を修正
+ * 関数名にprocessを使っていて正常に動作しない問題を修正
+ * BANをするときの重大なバグを修正(自分がBANされるバグ)
+
+非推奨になったもの
+====
+ * :doc:`../commands/docs`
