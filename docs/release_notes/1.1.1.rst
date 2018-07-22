@@ -5,12 +5,17 @@
 
 追加されたもの
 ====
+ * (コード内)変数: fsp (fs Promises API)
 
 変更されたもの
 ====
+ * すべてのファイルの書き込み処理にfs Promises APIを使用
  * eslintのno-undefの項目を修正
  * いらないboolean比較を削除(!!オペレーターなど)
  * XMLHttpRequestからnode-fetchへ完全に移行
+
+.. warning::
+        nodeのバージョンは10.xが必須になりました。
 
 削除されたもの
 ====
@@ -23,3 +28,5 @@
 バグ修正
 ====
  * BANが正常に動かないのを修正
+
+最新の比較: https://github.com/rht0910/BlackListener/compare/1.1...rht0910:master
