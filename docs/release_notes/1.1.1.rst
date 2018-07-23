@@ -19,6 +19,7 @@
  * :doc:`../commands/image` のconfirmオプションが非推奨になったことにより、`コマンド推測からconfirmオプションを削除 <https://github.com/BlackListener/BlackListener/pull/6/files#diff-168726dbe96b3ce427e7fedce31bb0bcL82>`_
  * index.jsから見てJSON関連の処理をutil.jsが簡略化
  * `本来ならある設定が足りない場合に、毎回ファイルに書き込んで、最大10回書き込んでたのを修正 <https://github.com/BlackListener/BlackListener/pull/6/files#diff-168726dbe96b3ce427e7fedce31bb0bcR248>`_
+ * ほとんどの同期処理(sync)から非同期処理(async)に変更
 
 .. warning::
         nodeのバージョンは10.xが必須になりました。8.x(LTS)ではエラーが発生し、正常に動作しません。
