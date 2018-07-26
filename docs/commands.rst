@@ -1,107 +1,107 @@
 ============
-コマンド一覧
+Commands
 ============
 
 +---------------------------------------+-----------------------+
-| 説明ページ                            | 管理者権限が必要か    |
+| Description Page                      | Is needed admin       |
 +=======================================+=======================+
-| :doc:`commands/help`                  | いいえ                |
+| :doc:`commands/help`                  | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/docs`                  | いいえ                |
+| :doc:`commands/docs`                  | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/workspace`             | いいえ                |
+| :doc:`commands/workspace`             | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/releases`              | いいえ                |
+| :doc:`commands/releases`              | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/talkja`                | いいえ                |
+| :doc:`commands/talkja`                | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/listemojis`            | いいえ                |
+| :doc:`commands/listemojis`            | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/vote`                  | いいえ                |
+| :doc:`commands/vote`                  | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/info`                  | いいえ                |
+| :doc:`commands/info`                  | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/status`                | いいえ                |
+| :doc:`commands/status`                | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/didyouknow`            | いいえ                |
+| :doc:`commands/didyouknow`            | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/encode`                | いいえ                |
+| :doc:`commands/encode`                | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/decode`                | いいえ                |
+| :doc:`commands/decode`                | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/encrypt`               | いいえ                |
+| :doc:`commands/encrypt`               | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/decrypt`               | いいえ                |
+| :doc:`commands/decrypt`               | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/image`                 | いいえ                |
+| :doc:`commands/image`                 | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/say`                   | いいえ                |
+| :doc:`commands/say`                   | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/sayd`                  | いいえ                |
+| :doc:`commands/sayd`                  | No                    |
 +---------------------------------------+-----------------------+
-| :doc:`commands/ban`                   | はい                  |
+| :doc:`commands/ban`                   | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/unban`                 | はい                  |
+| :doc:`commands/unban`                 | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/language`              | はい                  |
+| :doc:`commands/language`              | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setprefix`             | はい                  |
+| :doc:`commands/setprefix`             | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setnotifyrep`          | はい                  |
+| :doc:`commands/setnotifyrep`          | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setbanrep`             | はい                  |
+| :doc:`commands/setbanrep`             | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/mute`                  | はい                  |
+| :doc:`commands/mute`                  | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/antispam`              | はい                  |
+| :doc:`commands/antispam`              | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/purge`                 | はい                  |
+| :doc:`commands/purge`                 | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/purge_gdel`            | はい                  |
+| :doc:`commands/purge_gdel`            | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/purge_gdel_msg`        | はい                  |
+| :doc:`commands/purge_gdel_msg`        | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/purge_gdel_really`     | はい                  |
+| :doc:`commands/purge_gdel_really`     | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/purge_remake`          | はい                  |
+| :doc:`commands/purge_remake`          | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/togglepurge`           | はい                  |
+| :doc:`commands/togglepurge`           | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/role`                  | はい                  |
+| :doc:`commands/role`                  | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/autorole`              | はい                  |
+| :doc:`commands/autorole`              | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/lookup`                | はい                  |
+| :doc:`commands/lookup`                | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/serverinfo`            | はい                  |
+| :doc:`commands/serverinfo`            | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setignore`             | はい                  |
+| :doc:`commands/setignore`             | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/deletemsg`             | はい                  |
+| :doc:`commands/deletemsg`             | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setgroup`              | はい                  |
+| :doc:`commands/setgroup`              | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/invite`                | はい                  |
+| :doc:`commands/invite`                | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/dump`                  | はい                  |
+| :doc:`commands/dump`                  | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/sync`                  | はい                  |
+| :doc:`commands/sync`                  | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setnick`               | はい                  |
+| :doc:`commands/setnick`               | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/leave`                 | はい                  |
+| :doc:`commands/leave`                 | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/instantban`            | はい                  |
+| :doc:`commands/instantban`            | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/setwelcome`            | はい                  |
+| :doc:`commands/setwelcome`            | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/instantkick`           | はい                  |
+| :doc:`commands/instantkick`           | Yes                   |
 +---------------------------------------+-----------------------+
-| :doc:`commands/eval`                  | ボットオーナーのみ    |
+| :doc:`commands/eval`                  | Bot owner only        |
 +---------------------------------------+-----------------------+
-| :doc:`commands/shutdown`              | ボットオーナーのみ    |
+| :doc:`commands/shutdown`              | Bot owner only        |
 +---------------------------------------+-----------------------+
-| :doc:`commands/token`                 | ボットオーナーのみ    |
+| :doc:`commands/token`                 | Bot owner only        |
 +---------------------------------------+-----------------------+
-| :doc:`commands/reload`                | ボットオーナーのみ    |
+| :doc:`commands/reload`                | Bot owner only        |
 +---------------------------------------+-----------------------+

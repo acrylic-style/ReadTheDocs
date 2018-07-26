@@ -1,12 +1,12 @@
-リリースノート
+Release notes
 ====
 
-リリース済み
+Released versions
 ====
 
 * :doc:`release_notes/1.1`
 * :doc:`release_notes/1.1.1`
 
-今後のリリース
+Upcoming release
 ====
 

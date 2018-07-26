@@ -1,14 +1,14 @@
-banコマンド
+ban command
 ====
-::
-        $ ban <ユーザー> <理由> [--force] **<添付ファイルで証拠>**
+Syntax::
+        $ ban <User> <Reason> [--force] **<Probe on Attachment>**
 
-| 指定したユーザーをGlobalBANします。
-| [--force]はオプションですが、それ以外はすべて書かないとエラーになります。
-| --forceを付けると、ユーザーがキャッシュされていなくても強制的にBANを実行しようとします。
+| Global ban that specified user.
+| [--force] is option.
+| When specified --force, attempt to force ban even if it is not cached.
 
 .. note::
-        --forceで強制的にBANを実行するのは非推奨です。
+        Not recommended --force option.
 
 .. warning::
-        GlobalBANを :doc:`unban` で巻き戻すのは非推奨です。証拠、理由などは消されず、そのまま残るからです。
+        Rollback global bans in :doc:`unban` is NOT recommended.
