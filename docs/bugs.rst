@@ -1,5 +1,4 @@
-既知のバグ
+Known bugs
 ====
 
-・DMにメッセージを送ると中でエラーが発生する
-・設定ファイルが壊れる(自動では解決できないので手動で修正が必要)
+・Broke settings file at some times (Needed manual fix)
