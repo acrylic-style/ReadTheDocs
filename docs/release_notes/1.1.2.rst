@@ -1,0 +1,44 @@
+バージョン1.1.2(2018/08/10)
+====
+
+:doc:`1.1.1`-> バージョン1.1.2
+
+追加されたもの
+====
+ * Rate Limit(レート制限)を受けたときはエラーが出るようになりました。また、レート制限を受けたメソッドを表示します。
+ * :doc:`../commands/blockrole` ・・・ :doc:`../commands/role` で一般ユーザーが使える役職の管理
+ * :doc:`../commands/prefix` ・・・ :doc:`../commands/setprefix` のエイリアス
+ * パッケージ管理をyarnに移行(ただしnpmでも使用可能です)
+ * コンソール: REPLが使用可能になりました。
+ * [DEBUG]、[INFO]、[WARN]、[ERROR]、[FATAL]を追加。
+ * :doc:`../commands/sync` (with-workspaceとの設定同期機能(master -> with-workspace))
+
+変更されたもの
+====
+ * :doc:`../commands/role` が管理者権限を持っていなくても実行できるようになった。
+ * :doc:`../commands/invite` がボットの招待リンクだけを表示するようになった(これは引数がなくなったことを意味しています)。
+ * :doc:`../commands/image` で「閲覧注意」の引数が使えなくなった
+ * jsonからjson++になってjson++からjson5になった。
+ * levenshteinをやっとライブラリにした。
+ * :doc:`../commands/lookup` が管理者権限を持っていなくても実行できるようになった。
+ * ESLintでコードを掃除した。
+
+削除されたもの
+====
+ * 古くなって、不要になったものを削除
+ * README.mdから使えなくなったコマンドを削除
+ * 使ってないパッケージを削除
+ * 開発が進んでないgroup関連を削除
+ * global関連がまだ残ってたので削除
+ * workspaceコマンドをmasterブランチから削除
+ * :doc:`../commands/docs` を削除
+ * :doc:`../commands/say` を削除
+ * :doc:`../commands/sayd` を削除
+ * :doc:`../commands/saye` を削除
+
+バグ修正
+====
+ * StringBuilderは遅いのでArrayへ移行。
+ * varからletになった部分が多数
+ * letからconstになった部分が多数
+ * 変なインデントを修正
