@@ -1,0 +1,36 @@
+バージョン1.2(2018/10/10)
+==== 
+
+:doc:`1.1.2`-> バージョン1.2 (1.2.0)
+
+追加されたもの
+====
+ * 多言語対応？ `ここからご協力お願いします！ <https://crowdin.com/project/blacklistener>`_
+ * Dockerに関するもの(**docker-composeは不安定です。まだ使用しない方がいいでしょう。**)
+ * `Commandクラス <https://github.com/BlackListener/BlackListener/blob/dev/src/core.js#L4>`_
+ * indexを改良して、clientが利用不可(応答なし)になっていることを検知して、終了するようにした。
+ * Patronボット限定でmusicコマンドが使用可能(まだ早期アクセスです)。
+ * argument_parserを作成して、いろいろなオプションを認識できるようになった。
+ * userconfを作成。ユーザーごとに設定を変更できます。Languageのみで、Prefixは現在サポートされていません。
+
+変更されたもの
+====
+ * .eslintrc.jsを変更
+ * .gitignoreを変更
+ * .travis.ymlでビルドしないブランチを設定
+ * すべてのコマンドがCommandクラスを継承するようになった。
+ * Prefixなどの変更が環境変数から引数になった。
+ * **以前から：BotトークンをBase64エンコードしたものはもはやサポートされていません！**
+
+削除されたもの
+====
+ * :doc:`../commands/sync` (with-workspaceとの設定同期機能(master -> with-workspace))
+ * 古くなって、不要になったものを削除
+ * pidcheckを削除
+
+バグ修正
+====
+ * 相対パスを使用することで発生するバグを修正しました。
+ * エラー・クラッシュレポート生成時にエラーが発生するのを修正しました(ボットが起動完了する前にクラッシュ・エラーになると発生します)。
+ * デフォルトPrefixに関するバグを修正 ( https://github.com/BlackListener/BlackListener/pull/28/files#diff-2037a240e6d26ed20cf388edfc62e1edR6 )
+ * 他多数のバグ修正！
